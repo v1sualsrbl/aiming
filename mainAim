@@ -5,7 +5,7 @@ local dwEntities = game:GetService("Players")
 local dwLocalPlayer = dwEntities.LocalPlayer
 local dwMouse = dwLocalPlayer:GetMouse()
 
-local settings = {
+local aimbot = {
     Aimbot = true,
     Aiming = false,
     Aimbot_AimPart = "Head",

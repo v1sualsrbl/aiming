@@ -6,7 +6,7 @@ local dwLocalPlayer = dwEntities.LocalPlayer
 local dwMouse = dwLocalPlayer:GetMouse()
 
 local aimbot = {
-    Aimbot = true,
+    Aimbot = false,
     Aiming = false,
     Aimbot_AimPart = "Head",
     Aimbot_TeamCheck = false,
